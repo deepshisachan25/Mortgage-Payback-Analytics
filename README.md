@@ -5,15 +5,21 @@ The goal of this project is to find borrowers will default on their mortgage loa
 
 ## Business Goals
 This project is for businesses who lead in banking or financial institution. 
+
 •	The goal of this project is to find out whether loan borrowers will pay back their mortgage loans or not. This helps investors make smart choices about where to put their money to make the most profit.
+
 •	The business seeks to identify if borrowers are defaulting on their loans, then at what time of the loan length (i.e., at what time percentage of their loan period) they are defaulting i.e., in the early stage or later stage of the loan lifecycle. Financial institutions, by identifying early-stage defaulters, can take proactive measures to mitigate or reduce the risk. In this way, business can find good and bad borrowers and make strategies.
+
 •	Identify different combinations of borrowers’ financial features and find what factors determine if a customer will default or pay off the loan. This helps investors make smart choices about where to put their money to make the most profit and what factors lead borrowers to default on loan.
 By achieving these business goals, the banking organization can enhance its competitiveness in the mortgage market, improve risk management practices, and ultimately, increase profitability and stakeholder value.
 
 ## Analytical Approach
 To analyze a comprehensive dataset of residential U.S. mortgage borrowers over time predictor analysis and relevancy will be done. Factors such as credit scores (FICO), balance remaining at origin time, employment history, and loan-to-value ratios, etc. can play a significant role in predicting defaults or paid off borrower. To develop predictive models that can accurately forecast borrowers mortgage payback outcomes, with a specific focus on default and payoff observations. Using predictive models, we will find what factors or predictors make borrowers pay back their home loans, and regression will help business find out at what time of the loan time customer default on loan so that business can identify good customers which will be payoff customers, defaulting in later stage customers. 
+
 •	To develop classification models for classifying the likelihood of borrowers paying off their mortgages. Model will forecast whether borrowers will pay off their mortgages (1) or not (0). Status time will be an outcome variable (it contains default (1), payoff (2) & non-default/non-payoff (0)) and will filter out our dataset into active and non-active customers. Non-Active customers are those who defaulted and pay-off their loan and Active customers are those who did not default/non-pay off which tells they are still active and will pay or maybe default in future. For performing analytics, only non-active customers’ record will be taken and will be trained on it. 
+
 •	Regression model will find at what time of the loan lifecycle will customer default on loan (which is time percentage) that is calculated from time at observation and loan lifecycle. From this bank and financial institution can identify customer will default in early stage (low time percentage will be denote early-stage defaulter) or later stage and can take proactive actions.
+
 •	The business goal for implementing a clustering model in mortgage analytics revolves around identifying distinct groups of borrowers based on their financial features and understanding the factors that contribute to defaulting on loans or paying off the loan. To perform analytics, will utilize K-means clustering to segment borrowers into distinct groups based on their financial characteristics. Clustering analysis will help identify homogeneous groups of borrowers who share similar attributes and find what factors lead borrowers to default on loan so that business can identify those types of customer and make decision.
 Models will be trained on non-active customers record which are (Default (1) or Payoff (2)) and will later predict whether active customer will default on loans or not and if defaulted then at what time of their loan period i.e. in early stage or later stage of their loan lifecycle.
 
